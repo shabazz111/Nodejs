@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { number } = require("yup");
+
 
 const adminUserSchema = new mongoose.Schema({
   firstname: { type: String, requied: true },
